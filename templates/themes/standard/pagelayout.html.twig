@@ -14,14 +14,21 @@
 
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
+        {% include '@NetgenLayouts/stylesheets.html.twig' %}
+        {% include '@NetgenLayoutsStandard/stylesheets.html.twig' with {full: true} %}
     {% endblock %}
 </head>
 <body>
-{% block content %}
+
+{% block layout %}
+    {% block content %}
+    {% endblock %}
 {% endblock %}
 
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
+    {% include '@NetgenLayouts/javascripts.html.twig' %}
+    {% include '@NetgenLayoutsStandard/javascripts.html.twig' with {full: true} %}
 {% endblock %}
 </body>
 </html>

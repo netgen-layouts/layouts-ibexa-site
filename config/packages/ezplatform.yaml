@@ -87,6 +87,7 @@ ezplatform:
 
         site:
             languages: [eng-GB]
+            pagelayout: '@ezdesign/pagelayout.html.twig'
 
     url_alias:
         slug_converter:
