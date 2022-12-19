@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="{{ app.request.locale|replace({'_': '-'}) }}">
 <head>
-    <link rel="icon" type="image/x-icon" href="{{ asset('bundles/ezplatformadminui/img/favicon.ico') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('bundles/ibexaadminui/img/favicon.ico') }}" />
     <meta charset="utf-8">
     {% if content is defined and title is not defined %}
-        {% set title = ez_content_name( content ) %}
+        {% set title = ibexa_content_name( content ) %}
     {% endif %}
     <title>{{ title|default( 'Home' ) }}</title>
     <meta name="generator" content="Ibexa Open Source"/>
     {% if content is defined and content.contentInfo.mainLocationId %}
-        <link rel="canonical" href="{{ ez_path(content) }}" />
+        <link rel="canonical" href="{{ ibexa_path(content) }}" />
     {% endif %}
 
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
+
         {% include '@NetgenLayouts/stylesheets.html.twig' %}
         {% include '@NetgenLayoutsStandard/stylesheets.html.twig' with {full: true} %}
     {% endblock %}
@@ -27,8 +28,13 @@
 
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
+
     {% include '@NetgenLayouts/javascripts.html.twig' %}
     {% include '@NetgenLayoutsStandard/javascripts.html.twig' with {full: true} %}
+
+    {{ nglayouts_template_plugin('preview.javascripts') }}
 {% endblock %}
+
+{{ nglayouts_template_plugin('preview.body') }}
 </body>
 </html>

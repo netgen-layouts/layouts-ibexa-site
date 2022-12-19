@@ -14,6 +14,11 @@
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
 /public/build/
@@ -29,9 +34,7 @@ yarn-error.log
 /public/media/cache/
 ###< liip/imagine-bundle ###
 
-/.php-version
-/composer.lock
-/ide-twig.json
-/studio.json
-/.idea/
-/public/assets/
+.php-version
+studio.json
+.idea/
+public/assets/
