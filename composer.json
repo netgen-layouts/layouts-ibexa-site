@@ -66,7 +66,7 @@
             "symfony/flex": true,
             "symfony/runtime": true,
             "ibexa/post-install": true,
-            "php-http/discovery": false
+            "*": false
         },
         "optimize-autoloader": true,
         "preferred-install": {
