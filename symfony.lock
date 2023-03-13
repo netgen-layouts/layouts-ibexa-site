@@ -42,7 +42,7 @@
         ]
     },
     "friendsofsymfony/http-cache-bundle": {
-        "version": "2.14.0"
+        "version": "2.15.0"
     },
     "friendsofsymfony/jsrouting-bundle": {
         "version": "2.8",
@@ -170,7 +170,7 @@
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
             "version": "4.4",
-            "ref": "7154537665bd5ca634b51253d0c3623abf2a2fe4"
+            "ref": "a87d764ed7f8a3c3ac6c40ddec18817b689f21c1"
         },
         "files": [
             "config/packages/cache_pool/cache.memcached.yaml",
@@ -291,7 +291,7 @@
         }
     },
     "jms/translation-bundle": {
-        "version": "1.8.0"
+        "version": "1.9.0"
     },
     "knplabs/knp-menu-bundle": {
         "version": "v3.2.0"
@@ -346,10 +346,10 @@
         ]
     },
     "netgen/content-browser-ibexa": {
-        "version": "1.4.0"
+        "version": "1.4.1"
     },
     "netgen/content-browser-ui": {
-        "version": "1.4.0"
+        "version": "1.4.1"
     },
     "netgen/layouts-core": {
         "version": "1.4",
@@ -376,10 +376,10 @@
         ]
     },
     "netgen/layouts-standard": {
-        "version": "1.4.1"
+        "version": "1.4.2"
     },
     "netgen/layouts-ui": {
-        "version": "1.4.1"
+        "version": "1.4.2"
     },
     "oneup/flysystem-bundle": {
         "version": "4.6",
