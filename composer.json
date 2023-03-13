@@ -3,7 +3,7 @@
     "license": "GPL-2.0-only",
     "description": "Skeleton project allowing you to bootstrap a new site based on Netgen Layouts and Ibexa CMS",
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "doctrine/annotations": "^1.0",
