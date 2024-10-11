@@ -7,7 +7,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "http-interop/http-factory-guzzle": "^1.2",
-        "ibexa/oss": "~4.5.0",
+        "ibexa/oss": "~4.6.12",
         "symfony/console": "5.4.*",
         "symfony/dotenv": "5.4.*",
         "symfony/flex": "^1.17|^2",
@@ -79,6 +79,9 @@
                 "https://api.github.com/repos/netgen-layouts/recipes/contents/index.json?ref=flex",
                 "flex://defaults"
             ]
+        },
+        "runtime": {
+            "error_handler": "\\Ibexa\\Contracts\\Core\\MVC\\Symfony\\ErrorHandler\\Php82HideDeprecationsErrorHandler"
         },
         "branch-alias": {
             "dev-master": "1.4.x-dev"
