@@ -24,7 +24,6 @@ yarn-error.log
 /public/media/cache/
 ###< liip/imagine-bundle ###
 
-.php-version
-studio.json
 .idea/
 public/assets/
+studio.json
