@@ -18,12 +18,11 @@
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
 
-        {% include '@NetgenLayouts/stylesheets.html.twig' %}
-        {% include '@NetgenLayoutsStandard/stylesheets.html.twig' with {full: true} %}
+        {{ include('@NetgenLayouts/stylesheets.html.twig') }}
+        {{ include('@NetgenLayoutsStandard/stylesheets.html.twig', { full: true }) }}
     {% endblock %}
 </head>
 <body>
-
 {% block layout %}
     {% block content %}
     {% endblock %}
@@ -32,12 +31,11 @@
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
 
-    {% include '@NetgenLayouts/javascripts.html.twig' %}
-    {% include '@NetgenLayoutsStandard/javascripts.html.twig' with {full: true} %}
-
-    {{ nglayouts_template_plugin('preview.javascripts') }}
+    {{ include('@NetgenLayouts/javascripts.html.twig') }}
+    {{ include('@NetgenLayoutsStandard/javascripts.html.twig', { full: true }) }}
+    {{ include('@NetgenLayouts/preview/javascripts.html.twig') }}
 {% endblock %}
 
-{{ nglayouts_template_plugin('preview.body') }}
+{{ include('@NetgenLayouts/preview/body.html.twig') }}
 </body>
 </html>
