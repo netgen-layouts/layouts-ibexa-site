@@ -1,26 +1,46 @@
 {
+    "api-platform/core": {
+        "version": "4.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "4.0",
+            "ref": "cb9e6b8ceb9b62f32d41fc8ad72a25d5bd674c6d"
+        },
+        "files": [
+            "config/packages/api_platform.yaml",
+            "config/routes/api_platform.yaml",
+            "src/ApiResource/.gitignore"
+        ]
+    },
     "babdev/pagerfanta-bundle": {
-        "version": "v2.11.0"
+        "version": "v4.6.0"
     },
     "doctrine/annotations": {
-        "version": "1.14",
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.10",
+            "ref": "64d8583af5ea57b7afa4aba4b159907f3a148b05"
+        }
+    },
+    "doctrine/deprecations": {
+        "version": "1.1",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
             "version": "1.0",
-            "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
-        },
-        "files": [
-            "config/routes/annotations.yaml"
-        ]
+            "ref": "87424683adc81d7dc305eefec1fced883084aab9"
+        }
     },
     "doctrine/doctrine-bundle": {
-        "version": "2.7",
+        "version": "2.18",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "2.4",
-            "ref": "91690c0a440faba1a3676256bcca2b4aa9f55b72"
+            "version": "2.13",
+            "ref": "620b57f496f2e599a6015a9fa222c2ee0a32adcb"
         },
         "files": [
             "config/packages/doctrine.yaml",
@@ -29,7 +49,7 @@
         ]
     },
     "doctrine/doctrine-migrations-bundle": {
-        "version": "3.3",
+        "version": "3.7",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
@@ -42,167 +62,171 @@
         ]
     },
     "friendsofsymfony/http-cache-bundle": {
-        "version": "2.17.1"
+        "version": "3.3.0"
     },
     "friendsofsymfony/jsrouting-bundle": {
-        "version": "2.8",
+        "version": "3.6",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
-            "version": "2.3",
-            "ref": "a9f2e49180f75cdc71ae279a929c4b2e0638de84"
+            "version": "3.0",
+            "ref": "03986bbad9dcc3e367036a6b4f48ec469a4b1bf4"
         },
         "files": [
             "config/routes/fos_js_routing.yaml"
         ]
     },
     "ibexa/admin-ui": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/admin-ui-assets": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/content-forms": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/core": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/core-persistence": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/core-search": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/cron": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/design-engine": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/doctrine-schema": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/fieldtype-matrix": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/fieldtype-query": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/fieldtype-richtext": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/graphql": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/http-cache": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
+    "ibexa/messenger": {
+        "version": "v5.0.5"
+    },
     "ibexa/notifications": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/oss": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
-            "ref": "fbc471823f80c22b726e6f5bfb8641abc95839b7"
+            "version": "5.0",
+            "ref": "e054983d51157c70900d776ea123664d2fcb5719"
         },
         "files": [
             "config/packages/cache_pool/cache.memcached.yaml",
             "config/packages/cache_pool/cache.redis.yaml",
             "config/packages/cache_pool/cache.tagaware.filesystem.yaml",
+            "config/packages/csrf.yaml",
             "config/packages/dfs/dfs.yaml",
             "config/packages/graphql.yaml",
             "config/packages/ibexa.yaml",
@@ -213,7 +237,10 @@
             "config/packages/ibexa_jms_translation.yaml",
             "config/packages/ibexa_richtext.yaml",
             "config/packages/ibexa_solr.yaml",
+            "config/packages/ibexa_twig_components.yaml",
             "config/packages/ibexa_welcome_page.yaml",
+            "config/packages/lexik_jwt_authentication.yaml",
+            "config/packages/mailer.yaml",
             "config/packages/security.yaml",
             "config/routes/graphql.yaml",
             "config/routes/ibexa.yaml",
@@ -225,9 +252,7 @@
             "config/routes/ibexa_search.yaml",
             "config/routes/ibexa_system_info.yaml",
             "config/routes/ibexa_user.yaml",
-            "ibexa.webpack.config.js",
-            "ibexa.webpack.config.manager.js",
-            "ibexa.webpack.custom.configs.js",
+            "ibexa.tsconfig.json",
             "package.json",
             "webpack.config.js",
             "templates/themes/standard/full/welcome_page.html.twig",
@@ -262,67 +287,77 @@
         ]
     },
     "ibexa/rest": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/search": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/solr": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/standard-design": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/system-info": {
-        "version": "4.6",
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "ibexa/templated-uri-bundle": {
-        "version": "v3.3.2.2"
+        "version": "4.0.0"
     },
-    "ibexa/user": {
-        "version": "4.6",
+    "ibexa/twig-components": {
+        "version": "5.0",
         "recipe": {
             "repo": "github.com/ibexa/recipes",
             "branch": "master",
-            "version": "4.6",
+            "version": "5.0",
+            "ref": "f2a0508673feab7662ca3bea9e3163f37f09bb09"
+        },
+        "files": []
+    },
+    "ibexa/user": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/ibexa/recipes",
+            "branch": "master",
+            "version": "5.0",
             "ref": "575fa895eb28f9d0b7e65e02ba9e3bcb16782094"
         }
     },
     "jms/translation-bundle": {
-        "version": "1.9.1"
+        "version": "2.6.0"
     },
     "knplabs/knp-menu-bundle": {
-        "version": "v3.4.2"
+        "version": "v3.7.0"
     },
     "lexik/jwt-authentication-bundle": {
         "version": "2.21",
@@ -337,7 +372,7 @@
         ]
     },
     "liip/imagine-bundle": {
-        "version": "2.13",
+        "version": "2.15",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
@@ -350,7 +385,7 @@
         ]
     },
     "nelmio/cors-bundle": {
-        "version": "2.5",
+        "version": "2.6",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
@@ -362,37 +397,37 @@
         ]
     },
     "netgen/content-browser": {
-        "version": "1.4",
+        "version": "2.0",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
-            "version": "1.0",
-            "ref": "24cb1c72a375ac7d62a4d18961cf06a9879a442c"
+            "version": "2.0",
+            "ref": "122c2ac9b3350a586d97f326b71be2c7bc3e3ed3"
         },
         "files": [
             "config/routes/netgen_content_browser.yaml"
         ]
     },
     "netgen/content-browser-ibexa": {
-        "version": "1.4.2"
+        "version": "2.0.0"
     },
     "netgen/content-browser-ui": {
-        "version": "1.4.1"
+        "version": "2.0.0"
     },
     "netgen/layouts-core": {
-        "version": "1.4",
+        "version": "2.0",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
-            "version": "1.0",
-            "ref": "04428c25df562ffad615d338704213bbabdc3d2e"
+            "version": "2.0",
+            "ref": "bc96d39a58f03c067c5d92a0c122f319763b73b0"
         },
         "files": [
             "config/routes/netgen_layouts.yaml"
         ]
     },
     "netgen/layouts-ibexa": {
-        "version": "1.4",
+        "version": "2.0",
         "recipe": {
             "repo": "github.com/netgen-layouts/recipes",
             "branch": "master",
@@ -404,13 +439,13 @@
         ]
     },
     "netgen/layouts-standard": {
-        "version": "1.4.3"
+        "version": "2.0.0"
     },
     "netgen/layouts-ui": {
-        "version": "1.4.5"
+        "version": "2.0.0"
     },
     "oneup/flysystem-bundle": {
-        "version": "4.12",
+        "version": "4.14",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
@@ -422,7 +457,7 @@
         ]
     },
     "overblog/graphiql-bundle": {
-        "version": "0.2",
+        "version": "1.0",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
@@ -434,7 +469,7 @@
         ]
     },
     "overblog/graphql-bundle": {
-        "version": "0.14",
+        "version": "1.7",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
@@ -459,20 +494,8 @@
             "config/packages/http_discovery.yaml"
         ]
     },
-    "sensio/framework-extra-bundle": {
-        "version": "6.2",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "5.2",
-            "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
-        },
-        "files": [
-            "config/packages/sensio_framework_extra.yaml"
-        ]
-    },
     "symfony/console": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
@@ -484,7 +507,7 @@
         ]
     },
     "symfony/debug-bundle": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
@@ -496,24 +519,37 @@
         ]
     },
     "symfony/flex": {
-        "version": "2.4",
+        "version": "2.10",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "1.0",
-            "ref": "146251ae39e06a95be0fe3d13c807bcf3938b172"
+            "version": "2.4",
+            "ref": "52e9754527a15e2b79d9a610f98185a1fe46622a"
         },
         "files": [
-            ".env"
+            ".env",
+            ".env.dev"
+        ]
+    },
+    "symfony/form": {
+        "version": "7.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "7.2",
+            "ref": "7d86a6723f4a623f59e2bf966b6aad2fc461d36b"
+        },
+        "files": [
+            "config/packages/csrf.yaml"
         ]
     },
     "symfony/framework-bundle": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.4",
-            "ref": "3cd216a4d007b78d8554d44a5b1c0a446dab24fb"
+            "version": "7.3",
+            "ref": "5a1497d539f691b96afd45ae397ce5fe30beb4b9"
         },
         "files": [
             "config/packages/cache.yaml",
@@ -523,11 +559,12 @@
             "config/services.yaml",
             "public/index.php",
             "src/Controller/.gitignore",
-            "src/Kernel.php"
+            "src/Kernel.php",
+            ".editorconfig"
         ]
     },
     "symfony/lock": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
@@ -538,29 +575,44 @@
             "config/packages/lock.yaml"
         ]
     },
-    "symfony/maker-bundle": {
-        "version": "1.50",
+    "symfony/mailer": {
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "1.0",
-            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
-        }
+            "version": "4.3",
+            "ref": "09051cfde49476e3c12cd3a0e44289ace1c75a4f"
+        },
+        "files": [
+            "config/packages/mailer.yaml"
+        ]
+    },
+    "symfony/messenger": {
+        "version": "7.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "6.0",
+            "ref": "d8936e2e2230637ef97e5eecc0eea074eecae58b"
+        },
+        "files": [
+            "config/packages/messenger.yaml"
+        ]
     },
     "symfony/monolog-bundle": {
-        "version": "3.10",
+        "version": "3.11",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
             "version": "3.7",
-            "ref": "aff23899c4440dd995907613c1dd709b6f59503f"
+            "ref": "1b9efb10c54cb51c713a9391c9300ff8bceda459"
         },
         "files": [
             "config/packages/monolog.yaml"
         ]
     },
     "symfony/notifier": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
@@ -571,13 +623,25 @@
             "config/packages/notifier.yaml"
         ]
     },
-    "symfony/routing": {
-        "version": "5.4",
+    "symfony/property-info": {
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.3",
-            "ref": "85de1d8ae45b284c3c84b668171d2615049e698f"
+            "version": "7.3",
+            "ref": "dae70df71978ae9226ae915ffd5fad817f5ca1f7"
+        },
+        "files": [
+            "config/packages/property_info.yaml"
+        ]
+    },
+    "symfony/routing": {
+        "version": "7.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "7.0",
+            "ref": "ab1e60e2afd5c6f4a6795908f646e235f2564eb2"
         },
         "files": [
             "config/packages/routing.yaml",
@@ -585,38 +649,25 @@
         ]
     },
     "symfony/security-bundle": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.3",
-            "ref": "98f1f2b0d635908c2b40f3675da2d23b1a069d30"
+            "version": "6.4",
+            "ref": "2ae08430db28c8eb4476605894296c82a642028f"
         },
         "files": [
-            "config/packages/security.yaml"
-        ]
-    },
-    "symfony/swiftmailer-bundle": {
-        "version": "3.5",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "2.5",
-            "ref": "f0b2fccdca2dfd97dc2fd5ad216d5e27c4f895ac"
-        },
-        "files": [
-            "config/packages/dev/swiftmailer.yaml",
-            "config/packages/swiftmailer.yaml",
-            "config/packages/test/swiftmailer.yaml"
+            "config/packages/security.yaml",
+            "config/routes/security.yaml"
         ]
     },
     "symfony/translation": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.3",
-            "ref": "e28e27f53663cc34f0be2837aba18e3a1bef8e7b"
+            "version": "6.3",
+            "ref": "620a1b84865ceb2ba304c8f8bf2a185fbf32a843"
         },
         "files": [
             "config/packages/translation.yaml",
@@ -624,37 +675,46 @@
         ]
     },
     "symfony/twig-bundle": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.4",
-            "ref": "bb2178c57eee79e6be0b297aa96fc0c0def81387"
+            "version": "6.4",
+            "ref": "cab5fd2a13a45c266d45a7d9337e28dee6272877"
         },
         "files": [
             "config/packages/twig.yaml",
             "templates/base.html.twig"
         ]
     },
-    "symfony/validator": {
-        "version": "5.4",
+    "symfony/uid": {
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.3",
-            "ref": "c32cfd98f714894c4f128bb99aa2530c1227603c"
+            "version": "7.0",
+            "ref": "0df5844274d871b37fc3816c57a768ffc60a43a5"
+        }
+    },
+    "symfony/validator": {
+        "version": "7.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "7.0",
+            "ref": "8c1c4e28d26a124b0bb273f537ca8ce443472bfd"
         },
         "files": [
             "config/packages/validator.yaml"
         ]
     },
     "symfony/web-profiler-bundle": {
-        "version": "5.4",
+        "version": "7.3",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.3",
-            "ref": "24bbc3d84ef2f427f82104f766014e799eefcc3e"
+            "version": "7.3",
+            "ref": "a363460c1b0b4a4d0242f2ce1a843ca0f6ac9026"
         },
         "files": [
             "config/packages/web_profiler.yaml",
@@ -662,18 +722,15 @@
         ]
     },
     "symfony/webpack-encore-bundle": {
-        "version": "1.17",
+        "version": "2.4",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "1.10",
-            "ref": "eff2e505d4557c967b6710fe06bd947ba555cae5"
+            "version": "2.0",
+            "ref": "719f6110345acb6495e496601fc1b4977d7102b3"
         },
         "files": [
             "assets/app.js",
-            "assets/bootstrap.js",
-            "assets/controllers.json",
-            "assets/controllers/hello_controller.js",
             "assets/styles/app.css",
             "config/packages/webpack_encore.yaml",
             "package.json",
@@ -681,10 +738,10 @@
         ]
     },
     "twig/extra-bundle": {
-        "version": "v3.13.0"
+        "version": "v3.22.2"
     },
     "willdurand/js-translation-bundle": {
-        "version": "4.0",
+        "version": "6.1",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
