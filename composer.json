@@ -10,20 +10,20 @@
         "guzzlehttp/promises": "^2.3",
         "ibexa/oss": "~5.0.0",
         "nyholm/psr7": "^1.8",
-        "symfony/console": "7.3.*",
-        "symfony/dotenv": "7.3.*",
+        "symfony/console": "7.4.*",
+        "symfony/dotenv": "7.4.*",
         "symfony/flex": "^2",
-        "symfony/framework-bundle": "7.3.*",
-        "symfony/runtime": "7.3.*",
-        "symfony/yaml": "7.3.*",
+        "symfony/framework-bundle": "7.4.*",
+        "symfony/runtime": "7.4.*",
+        "symfony/yaml": "7.4.*",
 
         "netgen/layouts-standard": "~2.0.0",
         "netgen/layouts-ibexa": "~2.0.0"
     },
     "require-dev": {
-        "symfony/debug-bundle": "7.3.*",
-        "symfony/stopwatch": "7.3.*",
-        "symfony/web-profiler-bundle": "7.3.*"
+        "symfony/debug-bundle": "7.4.*",
+        "symfony/stopwatch": "7.4.*",
+        "symfony/web-profiler-bundle": "7.4.*"
     },
     "config": {
         "allow-plugins": {
@@ -77,7 +77,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "7.3.*",
+            "require": "7.4.*",
             "endpoint": [
                 "https://api.github.com/repos/ibexa/recipes/contents/index.json?ref=flex/main",
                 "https://api.github.com/repos/netgen-layouts/recipes/contents/index.json?ref=flex",
